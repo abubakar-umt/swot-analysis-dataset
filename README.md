@@ -3,18 +3,18 @@ Data set used to develop http://www.swot.cricpredictor.com; a SWOT Analysis syst
 
 Data set prepared for Online Analytics System for SWOT Analysis of Cricket Players, hosted at http://swot.cricpredictor.com/
 
-# About Data set
+## About Data set
 Data set contains 5 CSV files separated by "|"
 keywords.csv, players.csv, odi_balls.csv, t20_balls.csv, cluster_data_bat.csv
 
-# keywords.csv
+## keywords.csv
 It contains all the keywords
 
 1. id <int> unique identifier for the keyword
 2. title <string> title of the keyword
 3. type <string> what type of keyword is it? balls type, batting shot, batting shots how, ball line, ball length, fielding region
 
-#players.csv
+## players.csv
 It contains brief but important information about each player
 
 1. id <int> unique identifier for the player
@@ -23,7 +23,7 @@ It contains brief but important information about each player
 4. Bating <string> Player bats left handed or right handed?
 5. Bowling <string> what is the bowling style of the player
 
-#odi_balls.csv
+## odi_balls.csv
 It contains all the balls information for ODI, a total of 399,034 records.
 
 1. id <int> unique identifier for each ball
@@ -46,13 +46,13 @@ It contains all the balls information for ODI, a total of 399,034 records.
 18. ball_length <int> keyword id of what length was bowled by bowler. -1 means information was not available.
 19. fielding_region <int> keyword id of what fielding region that ball went. -1 means information was not available.
 
-#t20_balls.csv
+## t20_balls.csv
 It contains all the balls information for T-20, a total of 84,507 records.
 All attributes are same as of odi_balls.csv except:
 
 1. t20_no <int> unique identifier for each T-20
 
-cluster_data_bat.csv
+## cluster_data_bat.csv
 It contains swot values for selected attributes of the filtered batsmen.
 
 1. 	bat_id <int> batsman id
