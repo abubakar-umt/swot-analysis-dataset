@@ -4,7 +4,8 @@ Data set used to develop http://www.swot.cricpredictor.com; a SWOT Analysis syst
 Data set prepared for Online Analytics System for SWOT Analysis of Cricket Players, hosted at http://swot.cricpredictor.com/
 
 ## About Data set
-Data set contains 5 CSV files separated by "|"
+Data set contains 5 CSV files separated by ",".
+
 keywords.csv, players.csv, odi_balls.csv, t20_balls.csv, cluster_data_bat.csv
 
 ## keywords.csv
